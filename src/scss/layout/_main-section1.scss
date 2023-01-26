@@ -1,0 +1,30 @@
+.section1 {
+    
+    &__small {
+        color: $color-details;
+        font-size: 0.875rem;
+        font-family: $font-main;
+    }
+    &__title {
+        font-size: 1.5rem;
+        font-weight: bold;
+        font-family: $font-title;
+    }
+    &__text {
+        color: $color-background-footer;
+        font-size: 1.12rem;
+        font-family: $font-main;
+    }
+    &__button {
+        color: $color-details;
+        font-family: $font-main;
+        font-size: 1.25rem;
+        width: 160px;
+        height: 45px;
+        border: solid 2px $color-details;
+        border-radius: 22.5px;
+        margin: 0 0 10px;
+        background-color: $color-text-main;
+        font-weight: 500;
+    }
+}
