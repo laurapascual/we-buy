@@ -1,11 +1,48 @@
 .header {
-    background-image: url("cover.jpeg");
     width: 100vw;
     height: 100vh;
+    background-image:url("../images/cover.jpeg");
+    background-size:cover;
         &__menu {
             background-color: $color-details;
             width: 38px;
             height: 35px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        &__container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            color: $color-text-main;
+            transform: translateY(250px);
+        }
+        &__title {
+                font-family: $font-title;
+                font-size: 1.875rem;
+                line-height: 50px;
+                text-align: center;
+                text-transform: uppercase;
+                text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+        }
+        &__text {
+            line-height: 19px;
+            font-family: $font-main;
+            text-align: center;
+            max-width: 250px;
+        }
+        &__button {
+            background-color: $color-text-main;
+            width: 38px;
+            height: 36px;
+            border-radius: 22.5px;
+            display: flex;
+            justify-items: center;
+            align-items: center;
+            margin-top: 20px;
+        }
+        &__link {
+            margin: 0 auto;
         }
 }
-

@@ -1,5 +1,10 @@
 .section1 {
-    
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 15px 20px 1fr 1fr;
+    gap: 15px;
+    margin: 0 21px 0 12px;
+
     &__small {
         color: $color-details;
         font-size: 0.875rem;
@@ -14,6 +19,7 @@
         color: $color-background-footer;
         font-size: 1.12rem;
         font-family: $font-main;
+        line-height: 30px;
     }
     &__button {
         color: $color-details;
