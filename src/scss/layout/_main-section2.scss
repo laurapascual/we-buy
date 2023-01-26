@@ -1,0 +1,32 @@
+.section2 {
+    background-color: $color-background;
+    padding: 30px 66px 0 70px;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    gap: 40px;
+    &__title {
+        font-size: 1.25rem;
+        font-family: $font-title;
+        line-height: 30px;
+        text-align: center;
+    }
+    &__article {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center; 
+        text-align: center;
+        font-size: 1.125rem;
+        line-height: 30px;
+        &--title {
+            font-family: $font-title; 
+        }
+        &--text {
+            font-family: $font-main;
+        }
+    }
+}
+.title::first-line {
+    word-spacing: 100vw;
+}
