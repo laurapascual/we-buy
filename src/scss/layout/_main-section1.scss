@@ -33,4 +33,8 @@
         background-color: $color-text-main;
         font-weight: 500;
     }
+    &__link {
+        text-decoration: none;
+        color: $color-details;
+    }
 }

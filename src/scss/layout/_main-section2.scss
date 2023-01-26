@@ -1,6 +1,6 @@
 .section2 {
     background-color: $color-background;
-    padding: 30px 66px 0 70px;
+    padding: 30px 15px 0 15px;
     display: grid;
     grid-template-columns: 1fr;
     grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
@@ -10,6 +10,10 @@
         font-family: $font-title;
         line-height: 30px;
         text-align: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
     }
     &__article {
         display: flex;
@@ -24,9 +28,22 @@
         }
         &--text {
             font-family: $font-main;
+            max-width: 180px;
         }
     }
-}
-.title::first-line {
-    word-spacing: 100vw;
+    &__button {
+        background-color: $color-details;
+        color: $color-text-main;
+        font-family: $font-main;
+        font-size: 1.25rem;
+        width: 184px;
+        height: 45px;
+        border-radius: 22.5px;
+        border: solid 2px $color-details;
+        margin: 0 auto;
+    }
+    &__link {
+        text-decoration: none;
+        color: $color-text-main;
+    }
 }
