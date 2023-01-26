@@ -1,2 +1,22 @@
 .footer {
+    background-color: $color-background-footer;
+    color: $color-text-main;
+    font-family: $font-main;
+    text-align: center;
+    line-height: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+    &__nav {
+        text-transform: uppercase;
+        
+        &--link {
+            text-decoration: none;
+            color: $color-text-main;
+        }
+    }
+    &__copy {
+        font-size: 0.875rem;
+        margin-bottom: 36px;
+    }
 }
