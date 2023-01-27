@@ -19,6 +19,9 @@
 
     &__nav {
         text-transform: uppercase;
+        @media (min-width:768px) {
+                order: 1;
+            }
         
         &--link {
             text-decoration: none;
@@ -27,6 +30,6 @@
     }
     &__copy {
         font-size: 0.875rem;
-        margin-bottom: 36px;
+        margin-bottom: 36px; 
     }
 }
