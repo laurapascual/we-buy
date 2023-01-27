@@ -12,7 +12,9 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        &:hover {
         animation: infinite moveArrow 2s;
+        }
         }
 }
 
