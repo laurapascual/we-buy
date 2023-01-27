@@ -12,15 +12,16 @@
             display: flex;
             flex-direction: row;
             align-items: baseline;
-            justify-content: space-around;
+            justify-content: center;
+            gap: 30px;
             padding-bottom: 34px;
-            flex-wrap: wrap;
         }
 
     &__nav {
         text-transform: uppercase;
         @media (min-width:768px) {
                 order: 1;
+                width: 160px;
             }
         
         &--link {
@@ -31,5 +32,8 @@
     &__copy {
         font-size: 0.875rem;
         margin-bottom: 36px; 
+        @media (min-width:768px) {
+                width: 160px;
+            }
     }
 }
