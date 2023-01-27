@@ -4,14 +4,14 @@
 
 En esta evaluación he desarrollado mi primera página web individual con **HTML y Sass**.
 
-## Requerimientos
+## Requerimientos 📋
 
 - Usar Sass.
 - Usar flexbox y CSS Grid.
 - Usar media quieres.
 - Como extra: resolver algunas interacciones usando transiciones.
 
-## Criterios de evaluación
+## Criterios de evaluación ✏️
 
 ### General
 
@@ -52,3 +52,12 @@ En esta evaluación he desarrollado mi primera página web individual con **HTML
 - Usar CSS grid para emplazar elementos usando una rejilla.
 
 - Usar transiciones CSS para dotar de dinamismo a un proyecto web.
+
+## Construido con 🛠️
+
+- HTML
+- Scss
+- NPM
+- GitHub Pages
+
+## Espero que os guste 🤓
