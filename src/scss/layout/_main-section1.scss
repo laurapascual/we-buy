@@ -4,22 +4,38 @@
     grid-template-rows: 15px 20px 1fr 95px;
     gap: 15px;
     padding: 34px 21px 0 12px;
+        @media (min-width:768px) {
+            padding: 37px 37px 0 39px;
+        }
+        @media (min-width:1200px) {
+            padding: 58px 136px 37px 275px;
+        }
 
     &__small {
         color: $color-details;
         font-size: 0.875rem;
         font-family: $font-main;
+        @media (min-width:768px) {
+            font-size: 1rem;
+        }
     }
     &__title {
         font-size: 1.5rem;
         font-weight: bold;
         font-family: $font-title;
+        @media (min-width:768px) {
+            font-size: 2rem;
+        }
     }
     &__text {
         color: $color-background-footer;
         font-size: 1.12rem;
         font-family: $font-main;
         line-height: 30px;
+        @media (min-width:768px) {
+            font-size: 1.25rem;
+            padding-top: 12px;
+        }
     }
     &__button {
         color: $color-details;
