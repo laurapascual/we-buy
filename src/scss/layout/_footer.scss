@@ -8,6 +8,15 @@
     flex-direction: column;
     gap: 30px;
     padding-top: 65px;
+        @media (min-width:768px) {
+            display: flex;
+            flex-direction: row;
+            align-items: baseline;
+            justify-content: space-around;
+            padding-bottom: 34px;
+            flex-wrap: wrap;
+        }
+
     &__nav {
         text-transform: uppercase;
         
