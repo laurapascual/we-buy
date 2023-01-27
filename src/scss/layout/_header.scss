@@ -16,21 +16,45 @@
             flex-direction: column;
             align-items: center;
             color: $color-text-main;
-            transform: translateY(370px);
+            transform: translateY(600px);
+                @media (min-width:768px) {
+                    transform: translateY(475px);
+                    }
+                @media (min-width:1200px) {
+                    transform: translateY(500px);
+                }
         }
         &__title {
-                font-family: $font-title;
-                font-size: 1.875rem;
-                line-height: 50px;
-                text-align: center;
-                text-transform: uppercase;
-                text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+            font-family: $font-title;
+            font-size: 1.875rem;
+            line-height: 50px;
+            text-align: center;
+            text-transform: uppercase;
+            text-shadow: 0 2px 3px rgba(0, 0, 0, 0.2);
+            max-width: 315px;
+                @media (min-width:768px) {
+                    font-size: 4.68rem;
+                    line-height: 100px;
+                    max-width: 700px;
+                }
+                @media (min-width:1200px) {
+                    font-size: 6.25rem;
+                    max-width: none;
+                }
         }
         &__text {
             line-height: 19px;
             font-family: $font-main;
             text-align: center;
             max-width: 250px;
+                @media (min-width:768px) {
+                    font-size: 1.5rem;
+                    line-height: 28px;
+                    max-width: 340px;
+                    }
+                @media (min-width:1200px) {
+                    max-width: none;
+                }    
         }
         &__button {
             background-color: $color-text-main;
