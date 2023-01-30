@@ -3,6 +3,7 @@
     justify-content: center;
     align-items: center;
     position: relative;
+
     &__button {
         background-color: $color-text-main;
         width: 45px;
@@ -12,9 +13,10 @@
         display: flex;
         justify-content: center;
         align-items: center;
+
         &:hover {
         animation: infinite moveArrow 2s;
         }
-        }
+    }
 }
 

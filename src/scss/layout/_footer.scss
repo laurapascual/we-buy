@@ -8,32 +8,36 @@
     flex-direction: column;
     gap: 30px;
     padding-top: 65px;
-        @media (min-width:768px) {
-            display: flex;
-            flex-direction: row;
-            align-items: baseline;
-            justify-content: center;
-            gap: 30px;
-            padding-bottom: 34px;
-        }
+
+    @include tablet {
+        display: flex;
+        flex-direction: row;
+        align-items: baseline;
+        justify-content: center;
+        gap: 30px;
+        padding-bottom: 34px;
+}
 
     &__nav {
         text-transform: uppercase;
-        @media (min-width:768px) {
-                order: 1;
-                width: 160px;
-            }
+
+        @include tablet {
+            order: 1;
+            width: 160px;
+        }
         
         &--link {
             text-decoration: none;
             color: $color-text-main;
         }
     }
+
     &__copy {
         font-size: 0.875rem;
-        margin-bottom: 36px; 
-        @media (min-width:768px) {
-                width: 160px;
-            }
+        margin-bottom: 36px;
+
+        @include tablet {
+            width: 160px;
+        }
     }
 }
