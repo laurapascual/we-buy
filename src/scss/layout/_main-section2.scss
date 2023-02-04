@@ -58,7 +58,7 @@
         }
     }
 
-    &__button {
+    &__link {
         background-color: $color-details;
         color: $color-text-main;
         font-family: $font-main;
@@ -69,28 +69,19 @@
         border: solid 2px $color-details;
         margin: 0 auto;
         transition: all 0.5s;
-
-        &:hover {
-            background-color: $color-text-main;
-            color: $color-details;
-        }
-
-        @include tablet {
-            grid-column: span 3;
-        }
-    }
-
-    &__link {
         text-decoration: none;
-        color: $color-text-main;
         display: flex;
         justify-content: center;
         align-items: center;
-        width: 100%;
-        height: 100%;
+        
+        @include tablet {
+            grid-column: span 3;
+        }
         
         &:hover {
             color: $color-details;
+            background-color: $color-text-main;
         }
+
     }
 }

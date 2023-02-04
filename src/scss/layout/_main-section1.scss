@@ -45,8 +45,12 @@
         }
     }
 
-    &__button {
+    &__link {
         color: $color-details;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        align-items: center;
         font-family: $font-main;
         font-size: 1.25rem;
         width: 160px;
@@ -57,23 +61,10 @@
         background-color: $color-text-main;
         font-weight: 500;
         transition: all .5s;
-
-        &:hover {
-            background-color: $color-details;
-        }
-    }
-
-    &__link {
-        color: $color-details;
-        text-decoration: none;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        width: 100%;
-        height: 100%;
         
         &:hover {
             color: $color-text-main;
+            background-color: $color-details;
         }
     }
 }
