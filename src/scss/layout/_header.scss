@@ -75,7 +75,6 @@
         }
 
         &__button {
-            background-color: $color-text-main;
             width: 38px;
             height: 36px;
             border-radius: 22.5px;
@@ -86,6 +85,9 @@
         }
         
         &__img {
+            height: 45px;
+            border-radius: 22.5px;
             margin: 0 auto;
+            background-color: $color-text-main;
         }
 }
