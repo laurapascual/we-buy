@@ -1,63 +1,57 @@
-![Adalab](https://beta.adalab.es/resources/images/adalab-logo-155x61-bg-white.png)
+# We Buy
 
-# Evaluación Laura Pascual
+My first website with **HTML and SASS**.
 
-En esta evaluación he desarrollado mi primera página web individual con **HTML y Sass**.
+## What does this website have? 📋
 
-## Requerimientos 📋
+- SASS.
+- Flexbox and CSS Grid.
+- Mediaqueries.
+- Transitions.
 
-- Usar Sass.
-- Usar flexbox y CSS Grid.
-- Usar media quieres.
-- Como extra: resolver algunas interacciones usando transiciones.
+## What can you find? ✏️
 
-## Criterios de evaluación ✏️
+- Adequate structure of files and folders for a web project, and link the different files well.
 
-### General
-
-- Usar una estructura adecuada de ficheros y carpetas para un proyecto web, y enlazar bien los distintos ficheros.
-
-- Uso de control de versiones con ramas para manejar un proyecto de código.
+- Using version control with branches to handle a code project.
 
 ### HTML
 
-- Tener el código perfectamente indentado.
+- Perfectly indented code.
 
-- Crear código HTML con sintaxis correcta, bien estructurado.
+- HTML code with correct syntax, well structured.
 
-- Usar etiquetas HTML semánticas adecuadas para cada pieza de contenido.
+- Appropriate semantic HTML tags for each piece of content.
 
-### CSS / Sass
+### CSS / SASS
 
-- Tener el código perfectamente indentado.
-  Crear código Sass con sintaxis correcta, bien estructurado
+- Perfectly indented code.
+  
+- SASS code with correct syntax, well structured.
 
-- Usar algunas características de Sass como variables, anidación y parciales.
+- Variables, nesting and partials.
 
-- Usar código CSS que usa de forma intensiva selectores de clase. No usar selectores de etiqueta ni de id.
+- Class selectors in English.
 
-- Usar selectores de clase en inglés.
+- CSS box model.
 
-- Usar el modelo de caja de CSS de forma adecuada para especificar tamaño, relleno y márgenes.
+- Text and background styles for different types of elements.
 
-- Usar estilos de texto y fondo para distintos tipos de elementos.
-  enunciado.
+- FlexBox to organize element in flexible boxes.
 
-- Usar flexbox de forma adecuada para organizar elemento en cajas flexibles.
+- Media queries so that designs fit different device sizes.
 
-- Usar media queries para que los diseños se ajusten a distintos tamaños de dispositivo.
+- Positioning to place fixed and absolute elements on the screen.
 
-- Usar posicionamiento para emplazar elementos fijos y absolutos en la pantalla.
+- CSS grid for placing elements using a grid.
 
-- Usar CSS grid para emplazar elementos usando una rejilla.
+- CSS transitions to give dynamism to the web project.
 
-- Usar transiciones CSS para dotar de dinamismo a un proyecto web.
-
-## Construido con 🛠️
+## Build with 🛠️
 
 - HTML
-- Scss
+- SASS
 - NPM
 - GitHub Pages
 
-## Espero que os guste 🤓
+## I hope you like it 🤓
